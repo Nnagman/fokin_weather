@@ -7,11 +7,9 @@ export default class extends React.Component {
     const location = await Location.getCurrentPositionAsync();
     console.log(location);
   };
-
   componentDidMount() {
-    this.getLocation;
+    this.getLocation();
   }
-
   render() {
     return <Loading />;
   }
